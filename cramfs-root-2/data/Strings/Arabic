@@ -1,0 +1,31 @@
+﻿
+Event.AlarmLocal=الانذار الداخلي
+Event.NetAbort=فصل التوصيل بالشبكة
+Event.VideoBlind=مساحة غير مرئية
+Event.VideoLoss=فقدان اشارة الفيديو
+Event.VideoMotion=كاشف الحركة
+Event.HumanDetect=كشف الإنسان
+SMTP.AlarmBeginTime=وقت الانذار
+SMTP.AlarmEvent=حدث التنبيه
+SMTP.AlarmInChannel=قناة الإنذار
+SMTP.DeviceName=اسم الجهاز
+SMTP.EventEnd=نهاية
+SMTP.EventStart=بدأ
+SMTP.SenderIP=عنوان IP
+SMTP.SnapChannel=لقطة قناة
+Event.NetIPConflict=! IP تعارض في عنوان
+Event.StorageFailure=! خطأ في القرص
+Event.StorageLowSpace=لا توجد مساحة كافية
+Event.StorageNotExist=لايوجد قرص
+UserManager.PwdQuestions=الرجاء تحديد السؤال|ما هو رقم هاتفك؟|ما هو رقم حساب تويتر الخاص بك؟|ما هو رقم حساب الفيسبوك الخاص بك؟|ما هو صندوق بريد جوجل الخاص بك؟|ما هو ياهو صندوق البريد الخاص بك؟|ما هو اسم المستخدم الخاص بك رخصة القيادة؟
+UserManager.AnswerError=إجابة خاطئة، يرجى ادخال الإجابة الصحيحة
+UserManager.ErrorNumber=لقد كان الخطأ لمدة 6 مرات، الرجاء إعادة تشغيل الجهاز لمواصلة عملية
+AccountMSG.SetPasswordSuccess=مجموعة النجاح كلمة المرور
+AccountMSG.Failed=العملية فشلت
+UserManager.PasswordSetTip=يرجى تعديل كلمة المرور
+UserManager.EmailCodeTimeOut=رمز التحقق  مهلة 
+UserManager.EmailCodeError=كود التحقق  خطأ 
+UserManager.Emailsubject=رمز التحقق من إعادة تعيين كلمة المرور
+UserManager.EmailcontentONE=رمز التحقق من البريد الإلكتروني الخاص بك هو
+UserManager.EmailcontentTWO=صالح لمدة 10 دقائق.
+

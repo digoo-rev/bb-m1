@@ -1,0 +1,32 @@
+﻿
+Event.AlarmLocal=Alarm Lokalny
+Event.NetAbort=Brak połączenia z siecią
+Event.VideoBlind=Maskowanie
+Event.VideoLoss=Zanik video
+Event.VideoMotion=Detekcja
+Event.HumanDetect=Ludzkie wykrywanie
+SMTP.AlarmBeginTime=Czas rozpoczęcia Alarmu
+SMTP.AlarmEvent=Zdarzenie Alarmowe
+SMTP.AlarmInChannel=Nr kanału wejścia Alarmowego
+SMTP.DeviceName=Nazwa urządzenia Alarmowego
+SMTP.EventEnd=Koniec
+SMTP.EventStart=Początek
+SMTP.SenderIP=Adres IP Nadawcy
+SMTP.SnapChannel=snapshot kanał
+Event.NetIPConflict=Konflikt IP!
+Event.StorageFailure=Błąd Dysku
+Event.StorageLowSpace=Brak miejsca na Dysku
+Event.StorageNotExist=Brak Dysku
+UserManager.PwdQuestions=Wybierz pytanie|Jaki jest Twój numer telefonu?|Jaki jest Twój numer konta Twitter?|Jaki jest Twój numer konta na Facebooku?|Jaka jest Twoja skrzynka pocztowa Google?|Jaki jest Twój Yahoo skrzynki pocztowej?|Co znajduje się sterownik licencji ID?
+UserManager.AnswerError=Zła odpowiedź, podaj poprawną odpowiedź
+UserManager.ErrorNumber=Byliście złe dla 6 razy, proszę zrestartować urządzenie, aby kontynuować operację
+AccountMSG.Failed=Operacja nieudana
+AccountMSG.SetPasswordSuccess=Ustaw hasło Sukces
+UserManager.PasswordSetTip=Proszę zmienić hasło
+UserManager.EmailCodeTimeOut=Kod weryfikacyjny jest wygaśnięty
+UserManager.EmailCodeError=Błąd kodu weryfikacyjnego
+UserManager.Emailsubject=Kod weryfikacji resetowania hasła
+UserManager.EmailcontentONE=Kod weryfikacji e-mail jest
+UserManager.EmailcontentTWO=ważne przez 10 minut.
+
+

@@ -1,0 +1,31 @@
+﻿
+Event.AlarmLocal=Alarma Local
+Event.NetAbort=Desconesion de Red
+Event.VideoBlind=Sin Video
+Event.VideoLoss=PerdidaVideo
+Event.VideoMotion=Deteccion Mov.
+Event.HumanDetect=Detección humana
+SMTP.AlarmBeginTime=Hora de Inicio Alarma
+SMTP.AlarmEvent=Alarma de Evento
+SMTP.AlarmInChannel=Alarma Entrada Canal No.
+SMTP.DeviceName=Alarma Nombre de Dispositivo
+SMTP.EventEnd=Fin
+SMTP.EventStart=Comienzo
+SMTP.SenderIP=Enviado desde Direccion IP
+SMTP.SnapChannel=instantánea canal
+Event.NetIPConflict=Conflicto de IP!
+Event.StorageFailure=Error de Disco
+Event.StorageLowSpace=No Espacio en Disco
+Event.StorageNotExist=Disco no Detectado
+UserManager.PwdQuestions=Por favor seleccione Pregunta|¿Cuál es tu número de teléfono?|¿Cuál es tu número de cuenta de Twitter?|¿Cuál es tu número de cuenta de Facebook?|¿Qué es tu buzón de Google?|¿Cuál es tu buzón de Yahoo?|¿Cuál es su identificación de licencia de conducir?
+UserManager.AnswerError=Respuesta equivocada, por favor ingrese la respuesta correcta
+UserManager.ErrorNumber=Te has equivocado seis veces, reinicia tu dispositivo para continuar con la operación
+AccountMSG.Failed=Fallo en Operacion
+AccountMSG.SetPasswordSuccess=Éxito Establecer contraseña
+UserManager.PasswordSetTip=Modifique la contraseña
+UserManager.EmailCodeTimeOut=El tiempo de verificación del código de verificación ha caducado
+UserManager.EmailCodeError=Error de código de verificación
+UserManager.Emailsubject=Código de verificación de restablecimiento de contraseña
+UserManager.EmailcontentONE=Su código de verificación de correo electrónico es
+UserManager.EmailcontentTWO=Válido durante 10 minutos.
+

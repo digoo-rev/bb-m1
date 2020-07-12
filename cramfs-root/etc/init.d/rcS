@@ -1,0 +1,39 @@
+#!bin/sh
+
+/etc/init.d/dnode
+
+/bin/echo /sbin/mdev > /proc/sys/kernel/hotplug
+mdev -s
+
+mount -t cramfs /dev/mtdblock2 /usr
+mount -t cramfs /dev/mtdblock3 /mnt/web
+mount -t cramfs /dev/mtdblock4 /mnt/custom   
+mount -t jffs2 /dev/mtdblock5 /mnt/mtd
+
+mount -t ramfs  /dev/mem        /var
+mkdir -p /var/tmp
+
+mount -t ramfs  /dev/mem        /tmp
+#mount -t jffs2 /dev/mtdblock2 /home/
+
+
+
+mkdir -p /mnt/mtd/Config /mnt/mtd/Log /mnt/mtd/Config/ppp /mnt/mtd/Config/Json
+
+/usr/etc/loadmod
+regs 100200d4 1
+netinit
+
+#telnetd &
+wlandaemon 0 1 2 &
+routeswitch &
+
+if [ -f /usr/bin/pppd ];then
+	/usr/bin/pppd pty /etc/ppp/pppoe-start file /etc/ppp/pppoe-options &
+fi 
+
+if [ -f /mnt/custom/extapp.sh ];then
+	/mnt/custom/extapp.sh &
+fi
+
+dvrHelper /lib/modules /usr/bin/app.sh 127.0.0.1 9578 1 &

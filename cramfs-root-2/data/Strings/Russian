@@ -1,0 +1,31 @@
+﻿
+Event.AlarmLocal=Внутр. тревога
+Event.NetAbort=Отключение сети
+Event.VideoBlind=Закр. камеры
+Event.VideoLoss=Пот. сигнала
+Event.VideoMotion=Дет. движения
+Event.HumanDetect=Обнаружение человека
+SMTP.AlarmBeginTime=начало
+SMTP.AlarmEvent=тревожное событие
+SMTP.AlarmInChannel=№ канала входного сигнала тревоги
+SMTP.DeviceName=имя тревожного устройства
+SMTP.EventEnd=Конец
+SMTP.EventStart=Старт
+SMTP.SenderIP=IP отправителя
+SMTP.SnapChannel=снимок канала
+Event.NetIPConflict=Конфликт IP
+Event.StorageFailure=Ошибка диска
+Event.StorageLowSpace=Нет места на диске
+Event.StorageNotExist=Отсутствует диск
+UserManager.PwdQuestions=Пожалуйста, выберите вопрос|Какой у вас номер телефона?|Каков ваш номер счета Twitter?|Каков ваш номер счета Facebook?|Каков ваш почтовый ящик Google?|Какой ваш почтовый ящик Yahoo?|Что ваш водитель лицензии ID?
+UserManager.AnswerError=Неверный ответ, пожалуйста, введите правильный ответ
+UserManager.ErrorNumber=Вы ошиблись в 6 раз, пожалуйста, перезагрузить устройство для продолжения работы
+AccountMSG.Failed=Операция не выполнена.
+AccountMSG.SetPasswordSuccess=успешно устоновить пароль
+UserManager.PasswordSetTip=Пожалуйста, измените пароль
+UserManager.EmailCodeTimeOut=Срок действия кода подтверждения
+UserManager.EmailCodeError=Ошибка кода подтверждения.
+UserManager.Emailsubject=код подтверждения сброса пароля
+UserManager.EmailcontentONE=Ваш код проверки электронной почты
+UserManager.EmailcontentTWO=Действителен в течение 10 минут.
+

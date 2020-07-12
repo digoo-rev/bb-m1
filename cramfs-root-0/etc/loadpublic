@@ -1,0 +1,42 @@
+#!/bin/sh
+
+WIFI=XM712
+if [ -n "$WIFI" ];then
+	regs 0x2000002c 1
+	regs 0x20000020 0x1018000C
+	regs 0x20000024 0x00000C18
+	regs 0x2000002c 0
+	sleep 0.1;
+fi
+
+insmod /usr/lib/modules/sdio1_sd.ko
+
+if [ "$WIFI" = "SSV6051" ]; then
+	insmod /usr/lib/modules/cfg80211.ko
+	insmod /usr/lib/modules/mac80211.ko
+	insmod /usr/lib/modules/sdio2_wifi.ko value=0x65
+	insmod /usr/lib/modules/ssv6051.ko stacfgpath=/usr/sbin/ssv6051-wifi.cfg
+fi
+
+if [ "$WIFI" = "XM712" ]; then
+	insmod /usr/lib/modules/compat.ko
+	insmod /usr/lib/modules/wifi_pdn.ko value=0x65
+	insmod /usr/lib/modules/cfg80211.ko
+	insmod /usr/lib/modules/xm712.ko
+fi
+
+get_motor_params()
+{
+        motor_params="auto_test=0"
+        if [ -e "/mnt/mtd/Log/motorset" ];then
+                motor_params=`cat /mnt/mtd/Log/motorset`
+        elif [ -e "/mnt/custom/CustomConfig/motor.init" ];then
+                motor_params=`cat /mnt/custom/CustomConfig/motor.init`
+        fi
+        if [ -e "/mnt/mtd/Config/maintain" ];then
+                motor_params=`echo $motor_params | sed "s/auto_test=1/auto_test=0/g"`
+        fi
+        echo -n $motor_params
+}
+
+insmod /usr/lib/modules/kmotor.ko limit=0 gpio_pin=32,33,34,35,36,37,38,39,63,62,55,54 $(get_motor_params)

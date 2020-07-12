@@ -1,0 +1,32 @@
+﻿
+Event.AlarmLocal=Локална аларма
+Event.NetAbort=Разпадане на мрежата
+Event.VideoBlind=Видео заслепяване
+Event.VideoLoss=Видео загуба
+Event.VideoMotion=Детекция на движение
+Event.HumanDetect=Човешко откриване
+SMTP.AlarmBeginTime=Начално време на алармата
+SMTP.AlarmEvent=Алармено събитие
+SMTP.AlarmInChannel=Alarm input channel No.
+SMTP.DeviceName=Alarm device name
+SMTP.EventEnd=Край
+SMTP.EventStart=Начало
+SMTP.SenderIP=IP адрес на изпращача
+SMTP.SnapChannel=снимка канал
+Event.NetIPConflict=IP конфликт!
+Event.StorageFailure=Дискова грешка!
+Event.StorageLowSpace=Няма място на диска.
+Event.StorageNotExist=Няма диск.
+UserManager.PwdQuestions=Моля изберете Въпрос|Какво е вашето телефонен номер?|Какъв е номера на вашата сметка Twitter?|Какъв е номера на Вашата сметка Facebook?|Какво е вашето Google кутия?|Какво е вашето Yahoo кутия?|Какво е вашето лиценз ID шофьор?
+UserManager.AnswerError=Грешен отговор, моля, въведете правилния отговор
+UserManager.ErrorNumber=Може да се окаже погрешно в продължение на 6 пъти, моля рестартирайте устройството си, за да продължи работа
+AccountMSG.SetPasswordSuccess=Set Success Password
+AccountMSG.Failed=Грешка.
+UserManager.PasswordSetTip=Моля, променете паролата
+UserManager.EmailCodeTimeOut=Кодът за потвърждение е изтекъл
+UserManager.EmailCodeError=Грешка в кода за потвърждение
+UserManager.Emailsubject=Код за потвърждение за нулиране на паролата
+UserManager.EmailcontentONE=Вашият имейл код за потвърждение е
+UserManager.EmailcontentTWO=Валиден за 10 минути.
+
+

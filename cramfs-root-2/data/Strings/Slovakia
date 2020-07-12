@@ -1,0 +1,31 @@
+﻿
+Event.AlarmLocal=Miestny alarm
+Event.NetAbort=Odpojenie od siete
+Event.VideoBlind=Stlmenie videa
+Event.VideoLoss=Strata videa
+Event.VideoMotion=Rozpoznávanie pohybu
+Event.HumanDetect=Identifikácia človeka
+SMTP.AlarmBeginTime=Čas začiatku alarmu
+SMTP.AlarmEvent=Udalosť alarmu
+SMTP.AlarmInChannel=Č. vstupného kanála alarmu
+SMTP.DeviceName=Názov zariadenia alarmu
+SMTP.EventEnd=Koniec
+SMTP.EventStart=Začiatok
+SMTP.SenderIP=IP adresa odosielateľa
+SMTP.SnapChannel=snímok kanál
+Event.NetIPConflict=Konflikt IP!
+Event.StorageFailure=Chyba disku
+Event.StorageLowSpace=Žiaden priestor na disku
+Event.StorageNotExist=Žiaden disk
+UserManager.PwdQuestions=Prosím vybrať otázku|Aké je tvoje telefónne číslo?|Čo je to číslo účtu Twitter?|Čo je to číslo účtu Facebook?|Aký je váš Google schránky?|Aký je váš Yahoo poštovej schránky?|Aký je váš vodičský preukaz číslo?
+UserManager.AnswerError=Zlá odpoveď, zadajte správnu odpoveď
+UserManager.ErrorNumber=Bol ste zlé 6x, reštartujte zariadenie pokračovať v činnosti
+AccountMSG.Failed=Operácia zlyhala.
+AccountMSG.SetPasswordSuccess=Set Password Úspech
+UserManager.PasswordSetTip=Upravte heslo
+UserManager.EmailCodeTimeOut=Vypršal verifikačný kód
+UserManager.EmailCodeError=Chyba overovacieho kódu
+UserManager.Emailsubject=Verifikačný kód na obnovenie hesla
+UserManager.EmailcontentONE=Váš e-mailový verifikačný kód je
+UserManager.EmailcontentTWO=Platí 10 minút.
+
